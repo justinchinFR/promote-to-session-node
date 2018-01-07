@@ -23,7 +23,11 @@ Configuration Screenshot
 
 The above screenshot demonstrates generating a random UUID, displaying it to the user via a QR code, authenticating the user and storing the generated code in their session properties.
 
+## Installation
+
 Copy the .jar file from the ../target directory into the ../web-container/webapps/openam/WEB-INF/lib directory where AM is deployed.  Restart the web container to pick up the new node.  The node will then appear in the authentication trees components palette.
+
+## Disclaimer
 
 The code in this repository has binary dependencies that live in the ForgeRock maven repository. Maven can be configured to authenticate to this repository by following the following [ForgeRock Knowledge Base Article](https://backstage.forgerock.com/knowledge/kb/article/a74096897).
         
